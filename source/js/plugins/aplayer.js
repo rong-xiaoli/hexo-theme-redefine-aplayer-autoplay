@@ -27,6 +27,7 @@
       fixed: true,
       lrcType: 3,
       audio: audioList,
+      autoplay: theme.plugins.aplayer.autoplay,
     });
     document.querySelector(".aplayer-icon-lrc").click();
   }
